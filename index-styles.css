@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.padded{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titlecls {
+    font-weight:normal;
+    /* color: blue; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bacwhite {
+    background-color: rgba(167, 167, 167, 0.418);
+}
+
+
+#parrid {  /* USING ID */
+    font-size: 10px;
+}
