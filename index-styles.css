@@ -4,6 +4,12 @@ body{
     font-family: sans-serif;
 }
 
+/* SPACES */
+
+.paddiv{
+    padding: 32px;
+}
+
 /* TITLES  */
 
 .best {
@@ -23,11 +29,23 @@ body{
     padding-right: 5%;
 }
 
-.titlecls {
-    font-weight:normal;
-    /* color: blue; */
-    padding-left: 5%;
-    padding-right: 5%;
+.titlemargin{
+    margin-bottom: 36px;
+}
+
+.titlegeneral {
+    font-size: 26px;
+    font-weight: 540;
+}
+
+.titlesecondary {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.texthighed{
+    font-size: 21px;
+    font-weight: 200;
 }
 
 /*BACKGROUNDS */
@@ -35,7 +53,7 @@ body{
 .backwhite {
     background-color: rgba(255, 255, 255, 0.521);
     /* box-shadow: rgb(184, 182, 182) 0px 1px 10px 2px; */
-    padding: 40px;
+    padding: 50px 150px;
 }
 
 .backround {
