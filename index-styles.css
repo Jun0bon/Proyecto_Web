@@ -89,3 +89,51 @@ body{
     transition: all ease 0.3s;
 
 }
+
+
+/* NAV STYLES */
+
+ul{
+    list-style: none; /*Quitar dots en las listas*/
+    padding: 0;
+    margin: 0; /*sin margenes ni relleno*/
+}
+
+#nav-style{ 
+    float: left;
+    width: 100%;
+    /* background-color: var(--primary-color); */
+    border: 2px solid cyan;
+    box-shadow: 2px 2px 25px cyan;
+    text-decoration:none;
+
+}
+
+#nav-style > ul > li{
+    float: left;
+    margin: 30px 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#main-menu > ul > li > a{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-right: solid 1px rgb(120, 122, 122);
+    font-size: 20px;
+}
+
+#logo{
+    margin-top: 50px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;  /*Quitar resaltado*/
+    transition: all 0.2s; /* tiempo para cambiar de color*/
+}
+
+a:hover{
+    color: rgb(146, 146, 146); /* color cuando pase el cursor*/
+}
