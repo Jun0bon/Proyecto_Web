@@ -1,0 +1,30 @@
+.sticker{
+    float: left;
+    width: 100%;
+    background-color: black;
+    border: 1px solid white;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.sticker > ul > li {
+    float: left;
+    padding: 50px;
+    width: 27%;
+}
+
+.sticker > ul > li > div > span {
+    font-size: 21px;
+    color: rgb(131, 131, 131);
+}
+
+.sticker > ul > li > div > h3 {
+    font-size: 31px;
+}
+
+.boxsticker{
+    /* border: 1px solid red; */
+    padding-left: 40px;
+    text-align: left;
+    margin-top: 20px;
+}

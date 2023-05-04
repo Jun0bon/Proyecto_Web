@@ -1,3 +1,6 @@
+@import url("css/path.css");
+@import url("css/sticker.css");
+
 body{
     background-color: black;
     color: aliceblue;
