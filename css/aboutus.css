@@ -1,0 +1,27 @@
+.pink{
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(163, 160, 165);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pinkbox{
+    width: auto;
+    margin: 0px 500px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.pinkbox > span {
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+}
+
+.pinkbox > h3 {
+    font-size: 35px;
+    font-weight:700;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}
