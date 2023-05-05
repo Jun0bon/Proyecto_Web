@@ -14,12 +14,13 @@
 }
 
 .sticker > ul > li > div > span {
-    font-size: 21px;
+    font-size: 16px;
     color: rgb(131, 131, 131);
 }
 
 .sticker > ul > li > div > h3 {
-    font-size: 31px;
+    font-size: 25px;
+    margin-top: 13px;
 }
 
 .boxsticker{

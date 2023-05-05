@@ -4,24 +4,114 @@
     background-color: rgb(163, 160, 165);
     padding-top: 80px;
     padding-bottom: 80px;
-}
-
-.pinkbox{
-    width: auto;
-    margin: 0px 500px;
-    border: 1px solid red;
     text-align: center;
 }
 
-.pinkbox > span {
-    font-size: 20px;
+.pinkbox{
+    width: 100%;
+    max-width:540px;
+    display: inline-block; /* CONTENT MOVED WITH THE WINDOW*/
+    margin: 0px 200px;
+    border: 1px solid rgb(0, 255, 21);
+}
+
+.pinkbox > span {   /*SPAN DO NOT LET ALIGN ITSELF*/
+    font-size: 16px;
     font-weight: lighter;
     color: rgb(70, 70, 70);
 }
 
 .pinkbox > h3 {
-    font-size: 35px;
-    font-weight:700;
+    font-size: 24px;
+    font-weight:750;
     color: rgb(0, 0, 0);
     margin-top: 5px;
 }
+
+.pinkbox > h4{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 540;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.pinkbox > p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+    margin-bottom: 30px;
+}
+
+.pinkbox > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#etiquete {
+    background-color: rgba(119, 118, 118, 0.39);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ***********************************  BLACK SIDE*/
+
+.black{
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.blackbox{
+    width: 100%;
+    max-width:540px;
+    display: inline-block; /* CONTENT MOVED WITH THE WINDOW*/
+    margin: 0px 200px;
+    border: 1px solid rgb(0, 255, 21);
+}
+
+.blackbox > span {   /*SPAN DO NOT LET ALIGN ITSELF*/
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+}
+
+.blackbox > h3 {
+    font-size: 24px;
+    font-weight:750;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.pinkbox > h4{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 540;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.pinkbox > p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+    margin-bottom: 30px;
+}
+
+.pinkbox > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+

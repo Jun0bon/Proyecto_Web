@@ -3,12 +3,18 @@
     /* border: 2px solid rgb(255, 255, 255); */
     padding-top: 50px;
     float: left;
-    padding: 30px 60px;
+    padding: 20px 60px;
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .path > ul > li{
     float: left;
     padding-right: 20px;
+}
+
+@media (max-width: 750px){
+    .path{
+        background-color: blueviolet;
+    }
 }
