@@ -204,7 +204,7 @@
 
 #rotating1 {
     /* border: solid 1px blanchedalmond; */
-    transform: rotate(-5deg); /* rotate the image */
+    transform: rotate(-4deg); /* rotate the image */
     margin-left: 60px;
     margin-bottom: 50px;
     margin-top: 20px;
@@ -216,6 +216,96 @@
 
 }
 
+.greenbox > div  > ul{
+    border: solid 1px red;
+    list-style-type:armenian;
+}
+
+/* ************************** BLACK BOX 2  */
+
+
+.black2{
+    width: 100%;
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.blackbox2{
+    width: 100%;
+    max-width:540px;
+    display: inline-block; /* CONTENT MOVED WITH THE WINDOW*/
+    margin: 0px 200px;
+    border: 1px solid rgb(0, 255, 21);
+}
+
+.blackbox2 > span {   /*SPAN DO NOT LET ALIGN ITSELF*/
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+    text-align: left;
+}
+
+.blackbox2 > h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight:750;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+.blackbox2 > h4{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 540;
+    color: rgb(202 179 250);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.blackbox2 > p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(219, 218, 218);
+    margin-bottom: 30px;
+    line-height: 28px;
+    
+}
+
+#spacebt{
+    line-height: 26px;
+}
+
+/* .pinkbox > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+} */
+
+.blackbox2 > a > button {
+    /* float: left; */
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgb(27, 27, 27);
+    padding: 18px 35px;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+.blackbox2 > a > button:hover {
+    color: black;
+    background-color: rgb(204, 204, 204);
+    transition-duration: 0.5s;
+    box-shadow: 2px 3px 1px 1px rgb(112, 112, 112);
+    cursor:pointer;
+    
+}
 
 
 
