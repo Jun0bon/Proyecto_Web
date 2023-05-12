@@ -123,7 +123,7 @@
 } */
 
 .blackbox > a > button {
-    float: left;
+    /* float: left; */
     color: aliceblue;
     font-weight: 600;
     font-size: 14px;
@@ -136,8 +136,86 @@
 .blackbox > a > button:hover {
     color: black;
     background-color: rgb(204, 204, 204);
-    transition-duration: 0.3s;
-    box-shadow: 2px 2px 2px 50px gray;
+    transition-duration: 0.5s;
+    box-shadow: 2px 3px 1px 1px rgb(112, 112, 112);
+    cursor:pointer;
+    
+}
+
+/* ******************************  GREEN SIDE */
+
+.green{
+    width: 100%;
+    border: 1px solid red;
+    /* background-color:rgb(145, 219, 167); */
+    background-color:rgb(141, 141, 141);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.greenbox{
+    width: 100%;
+    max-width:540px;
+    display: inline-block; /* CONTENT MOVED WITH THE WINDOW*/
+    margin: 0px 200px;
+    border: 1px solid rgb(0, 255, 21);
+}
+
+.greenbox > span {   /*SPAN DO NOT LET ALIGN ITSELF*/
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+}
+
+.greenbox > h3 {
+    font-size: 24px;
+    font-weight:750;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}
+
+.greenbox > h4{
+    text-align: left;
+    font-size: 21px;
+    font-weight: 540;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.greenbox > p {
+    text-align: left;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(48, 48, 48);
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.greenbox > h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* ****************************** ROTATING IMAGES */
+
+#rotating1 {
+    /* border: solid 1px blanchedalmond; */
+    transform: rotate(-5deg); /* rotate the image */
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#rotating2 {
+    /* border: solid 1px rgb(240, 8, 8); */
+    transform: rotate(3deg) translate(-90px,-260px); /* rotate the image */
 
 }
+
+
+
 
