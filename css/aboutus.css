@@ -229,7 +229,7 @@
     border: 1px solid red;
     background-color: rgb(0, 0, 0);
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
@@ -241,16 +241,21 @@
     border: 1px solid rgb(0, 255, 21);
 }
 
-.blackbox2 > span {   /*SPAN DO NOT LET ALIGN ITSELF*/
-    font-size: 16px;
-    font-weight: lighter;
-    color: rgb(70, 70, 70);
-    text-align: left;
+.blackbox2 > h3 > span > div{   /*SPAN DO NOT LET ALIGN ITSELF*/
+    background-color: rgb(185, 170, 238);
+    transform: rotate(-4deg);
+    width: 35px;
+    color: black;
+    display: inline-block;
+    
+    
 }
 
 .blackbox2 > h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
     text-align: left;
-    font-size: 24px;
+    font-size: 28px;
     font-weight:750;
     color: rgb(255, 255, 255);
     margin-top: 5px;
@@ -273,6 +278,15 @@
     margin-bottom: 30px;
     line-height: 28px;
     
+}
+
+.blackbox2 > h1{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 540;
+    color: rgb(202 179 250);
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 #spacebt{
@@ -307,5 +321,72 @@
     
 }
 
+/* buttons style ************* */
+
+#whitebuton{
+    color: black;
+    background-color: aliceblue;
+    padding: 16px 50px;
+    font-size: 16px ;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+#whitebuton:hover {
+    background-color: rgb(185, 185, 185);
+    box-shadow: 0 0 0 0;
+    transition-duration: 0.3s;
+}
 
 
+
+#blackbuton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 16px 29px;
+    font-size: 16px ;
+    font-weight: 500;
+    margin-bottom: 8px;
+    border: solid 1px rgb(80, 80, 80);
+}
+
+#blackbuton:hover {
+    border: solid 1px white;
+    box-shadow: 0 0 0 0;
+    transition-duration: 0.3s;
+}
+
+
+/* ***** PHOTOGRAPH STYLISH */
+
+#photobackgr1{
+    width: 180px;
+    height: 180px;
+    border: solid 1px white;
+    transform: rotate(2deg) translate(100px,0px);
+    background-color: white ;
+
+}
+
+#rotating3{
+    transform: rotate(0deg) translate(2px,18px);
+}
+
+/* translate(-90px,-260px);; rotate the image */
+
+#photobackgr2{
+    width: 180px;
+    height: 180px;
+    border: solid 1px white;
+    transform: rotate(-5deg) translate(230px,25px);
+    background-color: white ;
+}
+
+#rotating4{
+    transform: rotate(0deg) translate(2px,25px);
+}
+
+#screwlogo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
