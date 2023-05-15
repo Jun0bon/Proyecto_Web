@@ -1,7 +1,7 @@
 .pink{
     width: 100%;
     border: 1px solid red;
-    background-color: rgb(163, 160, 165);
+    background-color: rgb(202, 179, 250);
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -53,7 +53,7 @@
 }
 
 #etiquete {
-    background-color: rgba(119, 118, 118, 0.39);
+    background-color: rgb(184, 163, 226);
     font-size: 14px;
     font-weight: 500;
 }
@@ -148,7 +148,7 @@
     width: 100%;
     border: 1px solid red;
     /* background-color:rgb(145, 219, 167); */
-    background-color:rgb(141, 141, 141);
+    background-color:rgb(145, 219, 167);
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -217,9 +217,22 @@
 }
 
 .greenbox > div  > ul{
+    text-align: left;
+    padding-top: 140px;
     border: solid 1px red;
-    list-style-type:armenian;
+    /* list-style-type:circle; */
 }
+
+.greenbox > div  > ul > li{
+    border: solid 1px red;
+    width: 100%;
+    display: inline-flex;
+}
+
+.greenbox > div  > ul > li > span{
+   color: rgb(61, 61, 61);
+}
+
 
 /* ************************** BLACK BOX 2  */
 
