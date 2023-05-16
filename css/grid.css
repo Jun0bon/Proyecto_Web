@@ -1,5 +1,16 @@
 /*grids for responsive*/
+/*to center the content*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+/* to clean the floating content */
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
 /*seleccion de clases para hacerlas float left */
 [class*="col-"]{
     float: left;

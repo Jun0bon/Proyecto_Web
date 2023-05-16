@@ -218,21 +218,28 @@
 
 .greenbox > div  > ul{
     text-align: left;
-    padding-top: 140px;
-    border: solid 1px red;
+    padding-top: 110px;
+    /* border: solid 1px red; */
     /* list-style-type:circle; */
 }
 
 .greenbox > div  > ul > li{
-    border: solid 1px red;
+    /* border: solid 1px rgb(245, 229, 7); */
     width: 100%;
     display: inline-flex;
+    margin: 4px 0px;
 }
 
 .greenbox > div  > ul > li > span{
-   color: rgb(61, 61, 61);
+   color: rgb(49, 49, 49);
+   padding:10px 15px;
 }
 
+#h22{
+    text-align: right;
+    width: 100%;
+    /* border: solid 1px rgb(245, 229, 7); */
+}
 
 /* ************************** BLACK BOX 2  */
 
@@ -403,3 +410,4 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
+
