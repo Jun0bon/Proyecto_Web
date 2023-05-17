@@ -6,11 +6,22 @@
 */
 
 .footpage{
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(20, 20, 20);
     padding: 20px 20px ;
 }
 
 #list-space{
-    border: solid 1px red;
-    padding: 5px;
+    /* border: solid 1px red; */
+    padding: 6px 0px;
+    font-size: 13px;
+}
+
+#list-title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+#descrip-title {
+    padding-bottom: 18px;
 }

@@ -231,8 +231,9 @@
 }
 
 .greenbox > div  > ul > li > span{
-   color: rgb(49, 49, 49);
+   color: rgb(78, 78, 78);
    padding:10px 15px;
+   font-size: 17px;
 }
 
 #h22{
