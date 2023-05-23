@@ -14,14 +14,24 @@
     /* border: solid 1px red; */
     padding: 6px 0px;
     font-size: 13px;
+        /* padding-bottom: 18px; */
 }
 
 #list-title{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 18px;
+    margin-top: 15px;
+
 }
 
 #descrip-title {
     padding-bottom: 18px;
+}
+
+/* *****  FLAGS */
+
+.flagstl1{
+    border-top: solid 1px gray;
+    background-color: blueviolet;
 }
