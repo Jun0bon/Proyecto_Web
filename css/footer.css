@@ -32,6 +32,34 @@
 /* *****  FLAGS */
 
 .flagstl1{
+    float: left;
+    /* display: inline; */
+    /* width: 100%; */
     border-top: solid 1px gray;
     background-color: blueviolet;
+    padding: 20px;
+}
+
+.flagstl1 > ul > li{
+    float: left;
+    padding: 5px;
+    width: 35px;
+    height: 20px;
+    min-height: 20px;
+}
+
+.flagstl2{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    /* font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter; */
+    background-color: rgb(43, 226, 83);
+
+}
+
+.flagstl3{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(43, 61, 226);
 }
