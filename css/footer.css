@@ -33,33 +33,56 @@
 
 .flagstl1{
     float: left;
+    width: 100%;
+    text-align: center;
     /* display: inline; */
     /* width: 100%; */
-    border-top: solid 1px gray;
-    background-color: blueviolet;
-    padding: 20px;
+    /* border-top: solid 1px gray; */
+    background-color: rgb(20, 20, 20);
+    padding: 15px;
 }
 
 .flagstl1 > ul > li{
-    float: left;
-    padding: 5px;
-    width: 35px;
-    height: 20px;
-    min-height: 20px;
+    /* float: left; */
+    display: inline;
 }
+
+.flagstl1 > ul > li > a > img{
+    padding: 4px;
+    width: 29px;
+    height: 19px;
+    min-height: 20px;
+    filter: brightness(60%);
+}
+
+.flagstl1 > ul > li > a > img:hover{
+    transform: scale(1.03);
+    filter: brightness(100%);
+    transition-duration: 0.3s;
+}
+
 
 .flagstl2{
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 16px;
     /* font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter; */
-    background-color: rgb(43, 226, 83);
+    background-color:rgb(20, 20, 20);
 
 }
 
 .flagstl3{
     text-align: center;
     padding: 10px;
-    background-color: rgb(43, 61, 226);
+    background-color: rgb(20, 20, 20);
+}
+
+
+@media only screen and (max-width: 990px){
+    .center { 
+        /* text-align: center; */
+        background-color: aliceblue;
+    }
+
 }
