@@ -1,12 +1,18 @@
+.bepath{
+    background-color: rgb(29, 28, 28);
+}
+
 .path{
     display: flex;
     flex-direction: row;
-    background-color: rgb(29, 28, 28);
-    justify-content: baseline;
+    /* background-color: rgb(29, 28, 28); */
+    max-width: 80%;
+    /* justify-content: center; */
+
     /* border: 2px solid rgb(255, 255, 255); */
     /* padding-top: 50px; */
     /* float: left; */
-    padding: 20px 60px;
+    padding: 20px 15%;
     /* width: 100%; */
     font-size: 14px;
 }
@@ -26,8 +32,34 @@
     text-align: left;
 }
 
+#add2{
+    display:none;
+
+}
+
+
 @media (max-width: 768px){
     .path{
-        background-color: blueviolet;
+        /* background-color: blueviolet;       */
+        padding: 12px 10px;
+    }
+    .path div{
+        width: 40px;
+        /* height: 20px; */
+    }
+
+    #hide{
+        display: none;
+        /* visibility: hidden; */
+    }
+
+    #add1{
+        display: none;
+
+    }
+
+    #add2{
+        display:inline-block;
+
     }
 }
