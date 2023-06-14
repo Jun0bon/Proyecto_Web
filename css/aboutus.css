@@ -216,12 +216,17 @@
 
 }
 
+
 .greenbox > div  > ul{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
     text-align: left;
     padding-top: 110px;
-    /* border: solid 1px red; */
-    /* list-style-type:circle; */
+    /* border: solid 1px rgb(140, 0, 255);  */
+
 }
+
 
 .greenbox > div  > ul > li{
     /* border: solid 1px rgb(245, 229, 7); */
@@ -237,7 +242,9 @@
 }
 
 #h22{
-    text-align: right;
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;
     width: 100%;
     /* border: solid 1px rgb(245, 229, 7); */
 }
@@ -411,6 +418,26 @@
 #screwlogo{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+}
+
+@media (max-width: 768px){
+    .hidde{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .greenbox > div  > ul{
+        padding-top: 0;
+    }
+
+    #h22{
+        justify-content:flex-end;
+        align-content: center;
+      
+        /* border: solid 1px rgb(245, 229, 7); */
+    
+    }
+    
 }
 
 @media (max-width: 992px){
